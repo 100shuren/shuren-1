@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+---
+title: "Our Missions"
+author: "C Ren"
+date: "14/12/2020"
+output:
+  html_document: 
+    keep_md: yes
+---
 
-You can use the [editor on GitHub](https://github.com/100shuren/shuren.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## R Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-```markdown
-Syntax highlighted code block
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```r
+summary(cars)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+```
 
-### Jekyll Themes
+## Including Plots
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/100shuren/shuren.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You can also embed plots, for example:
 
-### Support or Contact
+![](index_files/figure-html/pressure-1.png)<!-- -->
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
